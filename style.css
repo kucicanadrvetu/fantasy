@@ -1,0 +1,9 @@
+.table {
+    background: linear-gradient(90deg, rgb(54, 4, 82) 0%, rgba(84,19,118,1) 35%, rgba(147,57,250,1) 100%);
+    color: white;
+    box-shadow: 6px 20px 24px -1px rgba(54,4,82,1);
+}
+
+.teamColor {
+    color: #ff2882;
+}
