@@ -69,32 +69,3 @@ function currentRankColor($rank, $lastRank){
         echo 'style="background-color: #f5f5f5"';
     }
 }
-
-// $array = [];
-// foreach ($jsonMiniLeague['standings']['results'] as $key => $rows) { 
-//     $response = $client->request('POST', $url . 'entry/' . $rows['entry']);
-//     $json = json_decode($response->getBody()->getContents(), JSON_PRETTY_PRINT);
-//     $array['rank'] = $rows['rank'];
-//     $array['teamName'] = $rows['entry_name'];
-//     $array['managerName'] = $rows['player_name'];
-//     $array['last_rank'] = $rows['last_rank'];
-//     $array['total'] = $rows['total'];
-//     $array['entry'] = $rows['entry'];
-//     if ($json['id'] == $rows['entry']) {
-//         $array['currentRank'] = $json['summary_overall_rank'];
-//         $array['gwPoints'] = $json['summary_event_points'];
-//         $array['gwRank'] = $json['summary_event_rank'];
-//         $array['bank'] = $json['last_deadline_bank']/10;
-//         $array['teamValue'] = $json['last_deadline_value']/10;
-//         $array['totalTransfers'] = $json['last_deadline_total_transfers'];
-//     }
-// }
-
-// echo "<pre>";
-// print_r($array);
-// echo "</pre>"; 
-// die;
-
-
-#541376
-#9339fa
